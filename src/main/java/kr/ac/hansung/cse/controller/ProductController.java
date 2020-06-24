@@ -21,13 +21,13 @@ import kr.ac.hansung.cse.repo.ProductRepository;
 
 //@CrossOrigin(origins = "http://localhost:4200")
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/v1")
 public class ProductController {
 
 	@Autowired
 	ProductRepository repository;
 
-	@GetMapping("/v1/products")
+	@GetMapping("/products")
 	public ResponseEntity<List<Product>> getAllProducts() {
 		List<Product> products = new ArrayList<>();
 		try {
@@ -42,7 +42,7 @@ public class ProductController {
 		}
 	}
 
-	@GetMapping("/v1/products/{id}")
+	@GetMapping("/products/{id}")
 	public ResponseEntity<Product> getProductById(@PathVariable("id") int id) {
 		Optional<Product> productData = repository.findById(id);
 
@@ -53,7 +53,7 @@ public class ProductController {
 		}
 	}
 
-	@PostMapping(value = "/v1/products")
+	@PostMapping(value = "/products")
 	public ResponseEntity<Product> postProduct(@RequestBody Product product) {
 		try {
 			Product _product = repository.save(
@@ -72,7 +72,7 @@ public class ProductController {
 		}
 	}
 
-	@DeleteMapping("/v1/products/{id}")
+	@DeleteMapping("/products/{id}")
 	public ResponseEntity<HttpStatus> deleteProduct(@PathVariable("id") int id) {
 		try {
 			repository.deleteById(id);
@@ -82,7 +82,7 @@ public class ProductController {
 		}
 	}
 
-	@PutMapping("/v1/products/{id}")
+	@PutMapping("/products/{id}")
 	public ResponseEntity<Product> updateProduct(@PathVariable("id") int id, @RequestBody Product product) {
 		Optional<Product> productData = repository.findById(id);
 
@@ -101,7 +101,7 @@ public class ProductController {
 		}
 	}
 	
-	@GetMapping(value = "/v1/products/category/{category}")
+	@GetMapping(value = "/products/category/{category}")
 	public ResponseEntity<List<Product>> findByCategory(@PathVariable String category) {
 		try {
 			List<Product> products = repository.findByCategory(category);

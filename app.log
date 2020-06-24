@@ -272,3 +272,93 @@ org.hibernate.HibernateException: identifier of an instance of kr.ac.hansung.cse
 2020-06-22 21:28:44,569 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-06-22 21:28:44,569 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
 2020-06-22 21:28:44,580 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 11 ms
+2020-06-24 19:10:06,036 INFO [main] k.a.h.c.ProductSpringBootApplication [StartupInfoLogger.java:55] Starting ProductSpringBootApplication on DESKTOP-326MIB9 with PID 50308 (D:\dev\workspace\productSpringBoot\target\classes started by jun in D:\dev\workspace\productSpringBoot)
+2020-06-24 19:10:06,039 INFO [main] k.a.h.c.ProductSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-24 19:10:07,505 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-24 19:10:07,668 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 145ms. Found 1 JPA repository interfaces.
+2020-06-24 19:10:09,745 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9090 (http)
+2020-06-24 19:10:09,773 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9090"]
+2020-06-24 19:10:09,774 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-24 19:10:09,775 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-24 19:10:09,951 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-24 19:10:09,951 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 3837 ms
+2020-06-24 19:10:10,417 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 19:10:10,524 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-24 19:10:10,590 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-24 19:10:10,648 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-24 19:10:11,030 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-24 19:10:11,162 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-24 19:10:11,414 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-24 19:10:12,383 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-24 19:10:12,464 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-24 19:10:14,412 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-24 19:10:14,425 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-24 19:10:14,525 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-24 19:10:14,612 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9090"]
+2020-06-24 19:10:14,777 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9090 (http) with context path ''
+2020-06-24 19:10:14,781 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-24 19:10:15,340 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-24 19:10:15,357 INFO [main] k.a.h.c.ProductSpringBootApplication [StartupInfoLogger.java:61] Started ProductSpringBootApplication in 9.884 seconds (JVM running for 11.158)
+2020-06-24 19:13:42,687 INFO [http-nio-9090-exec-3] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 19:13:42,688 INFO [http-nio-9090-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-24 19:13:42,698 INFO [http-nio-9090-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 10 ms
+2020-06-24 19:29:25,863 INFO [main] k.a.h.c.ProductSpringBootApplication [StartupInfoLogger.java:55] Starting ProductSpringBootApplication on DESKTOP-326MIB9 with PID 50048 (D:\dev\workspace\productSpringBoot\target\classes started by jun in D:\dev\workspace\productSpringBoot)
+2020-06-24 19:29:25,867 INFO [main] k.a.h.c.ProductSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-24 19:29:27,373 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-24 19:29:27,461 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 74ms. Found 1 JPA repository interfaces.
+2020-06-24 19:29:29,360 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9090 (http)
+2020-06-24 19:29:29,377 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9090"]
+2020-06-24 19:29:29,378 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-24 19:29:29,379 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-24 19:29:29,597 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-24 19:29:29,598 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 3658 ms
+2020-06-24 19:29:30,123 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 19:29:30,184 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-24 19:29:30,224 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-24 19:29:30,293 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-24 19:29:30,608 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-24 19:29:30,640 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-24 19:29:30,806 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-24 19:29:31,394 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-24 19:29:31,459 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-24 19:29:32,877 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-24 19:29:32,887 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-24 19:29:32,993 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-24 19:29:33,060 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9090"]
+2020-06-24 19:29:33,146 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9090 (http) with context path ''
+2020-06-24 19:29:33,148 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-24 19:29:33,577 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-24 19:29:33,599 INFO [main] k.a.h.c.ProductSpringBootApplication [StartupInfoLogger.java:61] Started ProductSpringBootApplication in 8.428 seconds (JVM running for 9.256)
+2020-06-24 19:29:35,878 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 19:29:35,879 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-24 19:29:35,887 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 8 ms
+2020-06-24 20:03:06,180 INFO [main] k.a.h.c.ProductSpringBootApplication [StartupInfoLogger.java:55] Starting ProductSpringBootApplication on DESKTOP-326MIB9 with PID 48308 (D:\dev\workspace\productSpringBoot\target\classes started by jun in D:\dev\workspace\productSpringBoot)
+2020-06-24 20:03:06,183 INFO [main] k.a.h.c.ProductSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-24 20:03:07,611 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-24 20:03:07,694 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 69ms. Found 1 JPA repository interfaces.
+2020-06-24 20:03:09,623 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9090 (http)
+2020-06-24 20:03:09,638 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9090"]
+2020-06-24 20:03:09,639 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-24 20:03:09,640 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-24 20:03:09,840 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-24 20:03:09,840 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 3583 ms
+2020-06-24 20:03:10,280 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 20:03:10,347 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-24 20:03:10,389 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-24 20:03:10,434 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-24 20:03:10,693 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-24 20:03:10,702 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-24 20:03:10,939 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-24 20:03:11,659 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-24 20:03:11,726 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-24 20:03:13,018 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-24 20:03:13,026 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-24 20:03:13,081 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-24 20:03:13,115 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9090"]
+2020-06-24 20:03:13,150 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9090 (http) with context path ''
+2020-06-24 20:03:13,151 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-24 20:03:13,532 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-24 20:03:13,547 INFO [main] k.a.h.c.ProductSpringBootApplication [StartupInfoLogger.java:61] Started ProductSpringBootApplication in 7.996 seconds (JVM running for 9.282)
+2020-06-24 20:03:20,530 INFO [http-nio-9090-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 20:03:20,531 INFO [http-nio-9090-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-24 20:03:20,543 INFO [http-nio-9090-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 11 ms
