@@ -4,6 +4,11 @@
 <br>
 
 ---
+## 프로젝트 구조
+![ex_screenshot](./img/structure.JPG)<br>
+<br>
+
+---
 ## pom.xml
 ![ex_screenshot](./img/pomxml.JPG)<br>
 __14주차 강의때 실습한 Spring Boot를 기반으로 pom.xml을 작성했습니다.__<br>
@@ -50,7 +55,7 @@ __localhost:9090/actuator/mappings 를 실행하기 때문입니다.__
 __어노테이션을 이용하여 class product 를 데이터베이스에 매핑하였습니다.__<br>
 __JPA를 사용하여 데이터베이스의 데이터에 접근시 옳바른 데이터를 판단하기 위해 serialVersionUID를 추가합니다.__<br>
 ### 테이블 구조
-![ex_screenshot](./img/table1.JPG) ![ex_screenshot](./img/table2.JPG)<br>
+![ex_screenshot](./img/table3.JPG) ![ex_screenshot](./img/table1.JPG) ![ex_screenshot](./img/table2.JPG)<br>
 <br>
 <br>   
 <br>
